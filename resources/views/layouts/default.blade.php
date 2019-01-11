@@ -2,12 +2,12 @@
 
     <head>
         <title>@yield('title','WeiBo App') - The First Time TO Do It!</title>
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
     </head>
 
     <body>
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="/">Weibo App</a>
