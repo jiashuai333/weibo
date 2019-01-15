@@ -121,6 +121,8 @@ return [
 
     'key' => env('APP_KEY'),
 
+    'locale' => 'zh-CN',
+
     'cipher' => 'AES-256-CBC',
 
     /*
