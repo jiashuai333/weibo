@@ -23,17 +23,17 @@
 
                     <div class="form-group">
                         <label for="email">邮箱：</label>
-                        <input type="text" name="name" class="form-control" value="{{old('email')}}"/>
+                        <input type="text" name="email" class="form-control" value="{{old('email')}}"/>
                     </div>
 
                     <div class="form-group">
                         <label for="password">密码：</label>
-                        <input type="text" name="name" class="form-control" value="{{old('password')}}"/>
+                        <input type="text" name="password" class="form-control" value="{{old('password')}}"/>
                     </div>
 
                     <div class="form-group">
                         <label for="password-confirmation">确认密码：</label>
-                        <input type="text" name="name" class="form-control" value="{{old('password-confirmation')}}"/>
+                        <input type="text" name="password_confirmation" class="form-control" value="{{old('password_confirmation')}}"/>
                     </div>
 
                     <button type="submit" class="btn btn-primary">注  册</button>
