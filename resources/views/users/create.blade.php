@@ -38,7 +38,7 @@
 
                     <button type="submit" class="btn btn-primary">注  册</button>
                     <div style="float: right">
-                        <button type="button" class="btn btn-primary">JUST GO!</button>
+                        <button type="button" class="btn btn-primary" href="{{route('sign up')}}">JUST GO!</button>
                     </div>
 
                 </form>

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Auth;
-use http\Env\Request;
+use Illuminate\Http\Request;
 
 class SessionsController extends Controller
 {
@@ -20,7 +20,7 @@ class SessionsController extends Controller
             'password' => 'required'
         ]);
 
-        if (Auth::attenmpt($credentials)) {
+        if (Auth::attempt($credentials)) {
             //登录成功后相关操作
             session()->flash('success', '欢迎回来！');
             return redirect()->route('users.show', [Auth::user()]);
