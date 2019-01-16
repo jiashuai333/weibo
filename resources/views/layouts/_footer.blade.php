@@ -1,6 +1,6 @@
 
-<footer class="footer">
-
+<footer class="footer" >
+    <hr>
     <a href="https://laravel-china.org/courses" target=_blank>
         刻意练习，每日精进
     </a>
